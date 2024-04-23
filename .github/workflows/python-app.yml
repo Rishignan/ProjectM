@@ -22,7 +22,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; then playwright install; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+         playwright install
     - name: Run script and check output
       run: |
         python main.py  # Replace this command with your actual script execution command
@@ -47,7 +48,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; then playwright install; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        playwright install
     - name: Run script and check output
       run: |
         python main.py  # Replace this command with your actual script execution command
