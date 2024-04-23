@@ -678,7 +678,7 @@ def fetch_caption(url):
 def parallel_fetch_caption(urls):
     os.makedirs('tmp', exist_ok=True)
     clear_tmp_folder('tmp')
-    with ThreadPoolExecutor(max_workers=70) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         # Set up future objects for each URL fetch operation
         futures = [executor.submit(fetch_caption, url) for url in urls]
         results = []
