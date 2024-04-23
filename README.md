@@ -21,7 +21,7 @@ This project provides a robust solution for scraping web data and processing it 
 ```bash
 git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
 cd TikTokInsightsScraper
-virtualenv tiktok python=python3.10
+virtualenv tiktok --python=python3.10
 source tiktok/bin/activate 
 pip install -r requirements.txt
 ```
