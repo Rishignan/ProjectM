@@ -35,7 +35,7 @@ jobs:
         libmanette-0.2-0 \
         libflite1 \
         libgles2 \
-        libx264-155
+        libx264-160
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
     - name: Lint with flake8
@@ -55,7 +55,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8  # Ensure flake8 is installed
-        brew install woff2 vpx libevent opus gstreamer gst-plugins-base harfbuzz hyphen \
+        brew install woff2 libvpx libevent opus gstreamer gst-plugins-base harfbuzz hyphen \
              manette flite flite-gui flite_usenglish flite_cmu_grapheme_lang \
              flite_cmu_grapheme_lex flite_cmu_indic_lang flite_cmu_indic_lex \
              flite_cmulex flite_cmu_time_awb flite_cmu_us_awb flite_cmu_us_kal16 \
