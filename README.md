@@ -65,18 +65,23 @@ Each summary sheet includes a graph that visually compares the actual values wit
 Below are visual representations of the data processed:
 
 ![Emoji Frequency Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8f36944b-e5f7-4065-a24c-7a470d242fc2)
+
 *Post Comparison Graph: This graph compares actual number of posts to target number of posts for each emoji.*
 
 ![Likes Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/cb161ab1-d3fc-4b63-9002-5ccd042b08a1)
+
 *Likes Comparison Graph: This graph compares actual likes to target likes for each emoji.*
 
 ![Comments Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8087f163-9c7b-4f51-b968-2ea93a302044)
+
 *Comments Comparison Graph: This graph displays actual versus target comments by emoji.*
 
 ![Plays Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/818dc32b-6a4a-452b-885e-9cb7e2c4155a)
+
 *Plays Comparison Graph: Visual comparison of actual plays versus target plays for each emoji.*
 
 ![Saves Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/711584b7-5362-422e-9f88-74f445894703)
+
 *Saves Comparison Graph: This chart shows the comparison of actual saves against the target saves for each emoji.*
 
 These visualizations provide a quick overview of the performance metrics and goal attainment across different interaction types on TikTok.
