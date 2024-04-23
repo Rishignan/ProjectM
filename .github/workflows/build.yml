@@ -23,6 +23,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8  # Ensure flake8 is installed
+        apt-get install libwoff2dec1 libvpx7 libevent-2.1-7 libopus0 libgstreamer1.0-0 \
+                     libgstreamer-plugins-base1.0-0 libharfbuzz-icu0 libhyphen0 libmanette-0.2-0 \
+                     libflite1 libgles2 libx264-155 -y
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
     - name: Lint with flake8
@@ -42,6 +45,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8  # Ensure flake8 is installed
+        brew install woff2 vpx libevent opus gstreamer gst-plugins-base harfbuzz hyphen \
+             manette flite flite-gui flite_usenglish flite_cmu_grapheme_lang \
+             flite_cmu_grapheme_lex flite_cmu_indic_lang flite_cmu_indic_lex \
+             flite_cmulex flite_cmu_time_awb flite_cmu_us_awb flite_cmu_us_kal16 \
+             flite_cmu_us_kal flite_cmu_us_rms flite_cmu_us_slt libglesv2 libx264 -y
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
     - name: Lint with flake8
