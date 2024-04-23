@@ -49,6 +49,38 @@ python main.py --days 10 --pages https://www.tiktok.com/@infinityhoop https://ww
 4. Output:
    - The final output is a Google Sheet which provides a granular view of data metrics by emoji, showing both actual values and predefined targets.
 
+## Output
+
+The script generates a comprehensive `Final.xlsx` file that includes several sheets, each dedicated to different types of emoji-related data metrics such as Likes, Comments, Plays, and Saves. Each sheet not only provides detailed figures but also comparative graphs that illustrate actual values against predetermined targets for both "Eye" and "Star" emojis:
+
+- **Data Sheet**: Raw data collected from TikTok.
+- **Emoji Summary**: Frequency of each emoji.
+- **Likes Summary**: Total likes per emoji and comparison to target.
+- **Comments Summary**: Total comments per emoji and comparison to target.
+- **Plays Summary**: Total video plays per emoji and comparison to target.
+- **Saves Summary**: Total saves per emoji and comparison to target.
+
+Each summary sheet includes a graph that visually compares the actual values with the target values set for the project, providing immediate insights into performance against goals.
+
+Below are visual representations of the data processed:
+
+![Emoji Frequency Graph](/path/to/emoji_frequency_graph.png)
+*Emoji Frequency Graph: This graph shows the frequency of each emoji used in the posts.*
+
+![Likes Comparison Graph](/path/to/likes_comparison_graph.png)
+*Likes Comparison Graph: This graph compares actual likes to target likes for each emoji.*
+
+![Comments Comparison Graph](/path/to/comments_comparison_graph.png)
+*Comments Comparison Graph: This graph displays actual versus target comments by emoji.*
+
+![Plays Comparison Graph](/path/to/plays_comparison_graph.png)
+*Plays Comparison Graph: Visual comparison of actual plays versus target plays for each emoji.*
+
+![Saves Comparison Graph](/path/to/saves_comparison_graph.png)
+*Saves Comparison Graph: This chart shows the comparison of actual saves against the target saves for each emoji.*
+
+These visualizations provide a quick overview of the performance metrics and goal attainment across different interaction types on TikTok.
+
 ## 📦 Dependencies
 
 - Python 3.10
