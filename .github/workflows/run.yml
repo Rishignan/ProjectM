@@ -39,7 +39,7 @@ jobs:
         libgstreamer-plugins-bad1.0-0 
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
-        sudo playwright install-deps
+        sudo apt-get install gstreamer1.0-libav
     - name: Run script and check output
       run: |
         python main.py  # Replace this command with your actual script execution command
