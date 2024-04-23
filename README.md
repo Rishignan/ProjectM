@@ -54,17 +54,26 @@ python main.py --days 10 --pages https://www.tiktok.com/@infinityhoop https://ww
 The script generates a comprehensive `Final.xlsx` file that includes several sheets, each dedicated to different types of emoji-related data metrics such as Likes, Comments, Plays, and Saves. Each sheet not only provides detailed figures but also comparative graphs that illustrate actual values against predetermined targets for both "Eye" and "Star" emojis:
 
 - **Data Sheet**: Raw data collected from TikTok.
-- **Emoji Summary**: Frequency of each emoji.
+- **Posts Summary**: Total number of posts per emoji and comparison to target.
+     ![Post Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8f36944b-e5f7-4065-a24c-7a470d242fc2)
+
 - **Likes Summary**: Total likes per emoji and comparison to target.
+     ![Likes Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/cb161ab1-d3fc-4b63-9002-5ccd042b08a1)
+  
 - **Comments Summary**: Total comments per emoji and comparison to target.
+     ![Comments Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8087f163-9c7b-4f51-b968-2ea93a302044)
+
 - **Plays Summary**: Total video plays per emoji and comparison to target.
+     ![Plays Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/818dc32b-6a4a-452b-885e-9cb7e2c4155a)
+
 - **Saves Summary**: Total saves per emoji and comparison to target.
+     ![Saves Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/711584b7-5362-422e-9f88-74f445894703)
 
 Each summary sheet includes a graph that visually compares the actual values with the target values set for the project, providing immediate insights into performance against goals.
 
 Below are visual representations of the data processed:
 
-![Emoji Frequency Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8f36944b-e5f7-4065-a24c-7a470d242fc2)
+![Post Comparison Graph](https://github.com/mhmmdbdrhmd/TikTokInsightsScraper/assets/29101930/8f36944b-e5f7-4065-a24c-7a470d242fc2)
 
 *Post Comparison Graph: This graph compares actual number of posts to target number of posts for each emoji.*
 
