@@ -33,7 +33,10 @@ jobs:
         libhyphen0 \
         libmanette-0.2-0 \
         libflite1 \
-        libgles2 
+        libgles2 \
+        woff2 \
+        libgstreamer-gl1.0-0 \
+        libgstreamer-plugins-bad1.0-0 
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
     - name: Run script and check output
@@ -61,8 +64,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8  # Ensure flake8 is installed
-        brew install woff2 vpx libevent opus gstreamer gst-plugins-base harfbuzz hyphen \
-        manette flite libglesv2 libx264
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
     - name: Run script and check output
