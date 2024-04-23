@@ -26,64 +26,53 @@ This project provides a robust solution for scraping web data and processing it 
 
 ## 🔧 Installation
 
-First, clone the repository and navigate to the project directory:
-- git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
-- cd TikTokInsightsScraper
-
-Create and activate a virtual environment:
-- virtualenv tiktok --python=python3.10
-- source tiktok/bin/activate
-
-Install the necessary Python dependencies:
-- pip install -r requirements.txt
-
 ### Ubuntu
 First, install the OS dependencies:
 ```bash
-- sudo apt-get update
-- sudo apt-get install -y --no-install-recommends libvpx7 libevent-2.1-7 libopus0 libgstreamer1.0-0 libgstreamer-plugins-base1.0-0 libharfbuzz-icu0 libhyphen0 libmanette-0.2-0 libflite1 libgles2 woff2 libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0 gstreamer1.0-libav
-- playwright install
+sudo apt-get update
+sudo apt-get install -y --no-install-recommends libvpx7 libevent-2.1-7 libopus0 libgstreamer1.0-0 libgstreamer-plugins-base1.0-0 libharfbuzz-icu0 libhyphen0 libmanette-0.2-0 libflite1 libgles2 woff2 libgstreamer-gl1.0-0 libgstreamer-plugins-bad1.0-0 gstreamer1.0-libav
+playwright install
 ```
 
 Then continue with cloning the repository and navigating to the project directory:
 ```bash
-- git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
-- cd TikTokInsightsScraper
+git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
+cd TikTokInsightsScraper
 ```
 Create and activate a virtual environment:
 ```bash
-- virtualenv tiktok --python=python3.10
-- source tiktok/bin/activate
+virtualenv tiktok --python=python3.10
+source tiktok/bin/activate
 ```
 
 Install the necessary Python dependencies:
 ```bash
-- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Mac OS:
 
-- Install Homebrew if not already installed: ```zsh /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+- Install Homebrew if not already installed: ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
 
 ```zsh
-- brew install libvpx libevent opus gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav
-- playwright install
+brew install libvpx libevent opus gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav
+playwright install
 ```
 
 Then continue with cloning the repository and navigating to the project directory:
 ```zsh
-- git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
-- cd TikTokInsightsScraper
+git clone https://github.com/mhmmdbdrhmd/TikTokInsightsScraper.git
+cd TikTokInsightsScraper
 ```
 Create and activate a virtual environment:
 ```zsh
-- virtualenv tiktok --python=python3.10
-- source tiktok/bin/activate
+virtualenv tiktok --python=python3.10
+source tiktok/bin/activate
 ```
 
 Install the necessary Python dependencies:
 ```zsh
-- pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## ✅ Tested Platforms
