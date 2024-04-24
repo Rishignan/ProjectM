@@ -40,6 +40,16 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         playwright install
         sudo apt-get install gstreamer1.0-libav
+    - name: Build Executable
+      run: |
+        pip installer pyinstaller
+        pyinstaller --onefile main.py
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: ubuntu-executable
+        path: main
+        
     - name: Lint with flake8
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
