@@ -464,7 +464,7 @@ async def manual_login(page_urls,end_date):
     end_timestamp = end_date.timestamp()  # convert end_date to a timestamp for comparison
     hrefs = []
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, args=[
+        browser = await p.chromium.launch(headless=False, args=[
             '--disable-blink-features=AutomationControlled',
             '--disable-infobars',
             '--disable-dev-shm-usage',
@@ -525,7 +525,8 @@ async def manual_login(page_urls,end_date):
                 await page.click('text="Continue as guest"')
                 
 
-
+                page.reload()
+                
             #await page.wait_for_timeout(5000)  # Adjust timeout as necessary
             
             last_height = await page.evaluate("document.body.scrollHeight")
