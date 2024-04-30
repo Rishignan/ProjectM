@@ -1,4 +1,4 @@
-# 🌐 Web Scraping and Data Processing Project 🚀
+# 🌐 Web Scrapings and Data Processing Project 🚀
 
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10-blue.svg)
